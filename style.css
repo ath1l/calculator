@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+  }
+body{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background: radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(64, 64, 64) 90.2%);
+}
+.calc input{
+  color: aliceblue;
+  width: 320px;
+  border: none;
+  padding: 24px;
+  margin: 10px;
+  font-size: 40px;
+  text-align: right;
+  background: transparent;
+  cursor: pointer;
+box-shadow: -12px -10px 16px 3px rgba(0,0,0,0.75);
+
+}
+.calc{
+  background: rgb(13, 12, 19);
+    border: 1px solid rgb(2, 2, 2);
+    padding: 20px;
+    border-radius: 16px;
+    overflow: hidden;
+    background: transparent;
+
+    box-shadow: rgba(250, 250, 250, 0.25) 0px 54px 55px, rgb(134, 123, 123) 0px -12px 30px, rgba(216, 170, 170, 0.726) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+button{
+  cursor: pointer;
+  border: none;
+  width: 60px;
+  height:60px;
+  margin: 10px;
+  border-radius: 50%;
+  background-color: rgb(39, 38, 38);
+ color: rgb(255, 255, 255);
+ box-shadow: -8px -8px 15px rgb(2, 2, 2);
+}
+
+.obtn{
+  background-color: rgb(230, 149, 0);
+}
+.mbtn{
+    background-color: rgb(255, 0, 0);
+}
+.ebtn{
+  background-color: green;
+}

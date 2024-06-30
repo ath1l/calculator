@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+</head>
+<body>
+    <script src="script.js"></script>
+<div class="calc">
+<input type="text" placeholder="0" readonly id="screen">
+    <div id="buttons">
+        <div>
+            <button onclick="allClear()" class="mbtn">AC</button>
+            <button onclick="del()" class="mbtn">DEL</button>
+            <button onclick="Buttonclick('%')" class="mbtn">%</button>
+            <button onclick="Buttonclick('/')" class="obtn">/</button>
+        </div>
+        <div>
+            <button onclick="Buttonclick(7)">7</button>
+            <button onclick="Buttonclick(8)">8</button>
+            <button onclick="Buttonclick(9)">9</button>
+            <button onclick="Buttonclick('*')" class="obtn">x</button>
+        </div>
+        <div>
+            <button onclick="Buttonclick(4)">4</button>
+            <button onclick="Buttonclick(5)">5</button>
+            <button onclick="Buttonclick(6)">6</button>
+            <button onclick="Buttonclick('-')" class="obtn">-</button>
+        </div>
+        <div>
+            <button onclick="Buttonclick(1)">1</button>
+            <button onclick="Buttonclick(2)">2</button>
+            <button onclick="Buttonclick(3)">3</button>
+            <button onclick="Buttonclick('+')" class="obtn">+</button>
+        </div>
+        <div>
+            <button onclick="Buttonclick('0')">0</button>
+            <button onclick="Buttonclick('.')">.</button>
+            <button >::</button>
+            <button onclick="equalsTo()" class="ebtn">=</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>
